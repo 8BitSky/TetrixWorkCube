@@ -1,0 +1,19 @@
+#include <PRIZM.h>     
+PRIZM prizm;
+
+void setup() {
+   prizm.PrizmBegin();
+
+}
+
+void loop() {
+
+}
+
+//Blink green LED
+void GreenLED(){
+  prizm.setGreedLED(HIGH);
+  delay(250);
+  prizm.setGreedLED(LOW);
+  delay(250);
+}
