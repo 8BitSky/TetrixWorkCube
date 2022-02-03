@@ -11,6 +11,7 @@ if(prizm.readSonicSensorCM(3)>15){
 }else{
    //If FALSE (distance is less than 15cm) - do this code.
 }
+}
 
 //Blink green LED
 void GreenLED(){
