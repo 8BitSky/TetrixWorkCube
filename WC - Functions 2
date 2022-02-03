@@ -11,9 +11,9 @@ void loop() {
 
 //Blink green LED
 void GreenLED(){
-  prizm.setGreedLED(HIGH);
+  prizm.setGreenLED(HIGH);
   delay(250);
-  prizm.setGreedLED(LOW);
+  prizm.setGreenLED(LOW);
   delay(250);
 }
 
