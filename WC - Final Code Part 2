@@ -18,6 +18,7 @@ void GreenLED(){
   prizm.setGreenLED(HIGH);
   delay(250);
   prizm.setGreenLED(LOW);
+  delay(250);
 }
 
 //Pulse Motor
