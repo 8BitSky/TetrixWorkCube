@@ -15,10 +15,9 @@ if(prizm.readSonicSensorCM(3)>15){
 
 //Blink green LED
 void GreenLED(){
-  prizm.setGreedLED(HIGH);
+  prizm.setGreenLED(HIGH);
   delay(250);
-  prizm.setGreedLED(LOW);
-  delay(250);
+  prizm.setGreenLED(LOW);
 }
 
 //Pulse Motor
