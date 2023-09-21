@@ -1,9 +1,24 @@
-#include <PRIZM.h>     
-PRIZM prizm;
+//Code For Workcube
 
-void setup() {
-   prizm.PrizmBegin();
+#include <PRIZM.h>   //Link up the library
+PRIZM prizm;         //Declare object (reference to prizm)
+
+void setup(){  
+  prizm.setMotorPower(1,100); //100% speed
+  delay(2000);
+  prizm.setMotorPower(1,125); //125 means BRAKE
 }
 
-void loop() {
+void loop(){
 }
+
+
+
+
+
+
+
+
+
+
+
